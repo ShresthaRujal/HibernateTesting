@@ -6,10 +6,10 @@ import javax.persistence.*;
  * Created by Ruzal on 7/14/2017.
  */
 @Entity
-@Table(name = "user")
+@Table(name = "test")
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private int id;
 
